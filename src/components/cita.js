@@ -7,7 +7,7 @@ const Cita = ({cita, eliminarCita}) =>  (    //le pasamos la cita completa
         <p>Owner: <span>{cita.propietario}</span> </p>
         <p>Date: <span>{cita.fecha}</span> </p>
         <p>Hour: <span>{cita.hora}</span> </p>
-        <p>Symptoms: <span>{cita.sintoma}</span> </p>
+        <p>Symptoms: <span>{cita.sintomas}</span> </p>
 
         <button
             className="button eliminar u-full-width"
